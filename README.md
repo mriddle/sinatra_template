@@ -6,4 +6,6 @@ Basic Sinatra template setup with:
  * HAML
  * Coffee-script
  * Sprockets asset pipeline
+ * Underscore & Backbone JS
+ * RSpec
  * MongoDB
