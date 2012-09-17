@@ -5,7 +5,10 @@ Basic Sinatra template setup with:
  * SASS
  * HAML
  * Coffee-script
- * Sprockets asset pipeline
+ * Sprockets 2 (asset pipeline)
  * Underscore & Backbone JS
- * RSpec
- * MongoDB
+ * RSpec2
+ * -MongoDB-
+ * PostgresSQL
+
+ Suggestion: "gem install tux":https://github.com/cldwalker/tux

@@ -3,11 +3,13 @@ source :rubygems
 gem 'sinatra'
 gem 'haml'
 gem 'sass'
-gem 'mongo'
 gem 'bson'
 gem 'bson_ext'
 gem 'coffee-script'
 gem 'sprockets'
+gem 'data_mapper'
+gem 'dm-postgres-adapter'
+gem 'pg'
 
 group :test do
   gem 'rspec'

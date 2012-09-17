@@ -31,8 +31,9 @@ class App < Sinatra::Base
     include AssetHelpers
   end
 
-  # require 'mongo'
-  # DB = Mongo::Connection.new.db("notes_bin", :pool_size => 5, :timeout => 5)
+  # require 'data_mapper'
+  # DataMapper.setup(:default, 'postgres://localhost/db_name')
+  # DataMapper.finalize.auto_upgrade!
 
   get '/' do
     haml :index
