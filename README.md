@@ -8,7 +8,7 @@ Basic Sinatra template setup with:
  * Sprockets 2 (asset pipeline)
  * Underscore & Backbone JS
  * RSpec2
- * -MongoDB-
+ * ~~MongoDB~~
  * PostgresSQL
 
  Suggestion: "gem install tux":https://github.com/cldwalker/tux
