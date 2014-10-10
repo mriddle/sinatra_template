@@ -12,3 +12,10 @@ Basic Sinatra template setup with:
  * PostgresSQL
 
  Suggestion: "gem install tux":https://github.com/cldwalker/tux
+
+### Setup
+
+```
+cp .ruby-version.example .ruby-version
+bundle
+````
