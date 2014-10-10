@@ -7,7 +7,7 @@ set :raise_errors, true
 set :logging, false
 
 def app
-  Sinatra::Application::App
+  App
 end
 
 RSpec.configure do |config|
