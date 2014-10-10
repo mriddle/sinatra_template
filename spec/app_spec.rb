@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe "Notes Bin" do
+describe App do
 
   it "should respond to GET" do
     get '/'
-    last_response.should be_ok
-    last_response.body.should match(/Hello World/)
+    expect(last_response).to be_ok
+    expect(last_response.body).to match(/Hello World/)
   end
 
 end
